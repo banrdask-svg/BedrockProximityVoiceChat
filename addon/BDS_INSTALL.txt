@@ -1,0 +1,31 @@
+Bedrock Dedicated Server install:
+
+1. Copy addon/behavior_pack to:
+   behavior_packs/ProximityVoiceBridgeBP
+
+2. Copy addon/world_behavior_packs.json to your world folder:
+   worlds/<YourWorldName>/world_behavior_packs.json
+
+3. If worlds/<YourWorldName>/world_behavior_packs.json already exists,
+   do not replace the whole file. Add this object to the existing array:
+
+   {
+     "pack_id": "5e8d3d42-4f7d-48f0-baf0-ff1d5e94b6f1",
+     "version": [1, 0, 0]
+   }
+
+4. Restart the Bedrock Dedicated Server.
+
+This file is not stored inside the behavior pack. It belongs to the world.
+
+In-game commands:
+
+  /voice:voice site
+  /voice:voice on
+  /voice:voice off
+
+Fallback if custom slash commands are unavailable:
+
+  !voice site
+  !voice on
+  !voice off

@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Proximity Voice Bridge BP",
+    "description": "Sends Bedrock player positions to an external proximity voice chat site.",
+    "uuid": "5e8d3d42-4f7d-48f0-baf0-ff1d5e94b6f1",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 3]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "1e22cf61-1668-4d3b-81fc-cf8011c4efda",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-net",
+      "version": "1.0.0-beta"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+Commands in game:
+
+Slash command, if Custom Commands experimental API is enabled:
+
+  /voice:voice
+  /voice:voice site
+  /voice:voice on
+  /voice:voice off
+
+Minecraft Bedrock Script API requires custom slash commands to be namespaced.
+That is why the command is /voice:voice, not plain /voice.
+
+Fallback chat commands:
+
+  !voice
+  !voice site
+  !voice on
+  !voice off
+
+Meaning:
+
+  site - show the voice chat site URL.
+  on   - enable actionbar voice reminders.
+  off  - disable actionbar voice reminders.

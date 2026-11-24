@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bedrock Proximity Voice</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <main class="app">
+      <section class="panel">
+        <h1>Bedrock Proximity Voice</h1>
+        <form id="joinForm" class="join">
+          <label for="nick">Ник Minecraft</label>
+          <div class="row">
+            <input id="nick" name="nick" autocomplete="username" maxlength="32" placeholder="Steve" required>
+            <button type="submit">Подключиться</button>
+          </div>
+        </form>
+        <div class="controls">
+          <button id="muteButton" type="button" disabled>Микрофон: выкл</button>
+          <span id="status">Не подключено</span>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Слышимость</h2>
+        <p id="radius">Радиус: 25 блоков</p>
+        <ul id="peers" class="peers"></ul>
+      </section>
+    </main>
+
+    <script src="/client.js" defer></script>
+  </body>
+</html>

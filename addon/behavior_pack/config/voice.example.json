@@ -1,0 +1,8 @@
+{
+  "siteApiUrl": "http://127.0.0.1:3000",
+  "apiSecret": "change-me",
+  "updateIntervalTicks": 20,
+  "statusMessageIntervalTicks": 100,
+  "connectedPrefix": "\u00a7a[\u25c6]\u00a7r ",
+  "disconnectedPrefix": "\u00a7c[\u2298]\u00a7r "
+}

@@ -1,0 +1,13 @@
+{
+  "host": "0.0.0.0",
+  "port": 3000,
+  "hearingRadius": 25,
+  "apiSecret": "change-me",
+  "stalePlayerMs": 10000,
+  "proximityUpdateMs": 1000,
+  "iceServers": [
+    {
+      "urls": "stun:stun.l.google.com:19302"
+    }
+  ]
+}

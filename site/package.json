@@ -1,0 +1,16 @@
+{
+  "name": "bedrock-proximity-voice-site",
+  "version": "1.0.1",
+  "private": true,
+  "description": "External proximity voice chat site for a Minecraft Bedrock addon.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
